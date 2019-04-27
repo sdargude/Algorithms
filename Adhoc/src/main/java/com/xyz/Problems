@@ -1,0 +1,49 @@
+ITerative solution for tree traversals
+
+    K the smallest element in BST
+    Kth largest element in BST push rightmost
+    2nd largest element in BST
+
+
+Hieght of a K-array tree
+BST from sorted array
+
+Given an array shuffle, so that all outcome are equal in all cases
+
+-Clarification:
+    Shuffle ? Rearrange.
+    Outcome? What the heck are all outcome? ask.
+            - Is it all permutations of array? Yes.
+                - Entire array or subarray?yes
+
+            - Probability of each outcome is same.
+
+            Still not clear, lets take example
+
+                [1,2,3] given array. We have to write a function ƒ which gives shuffled array
+
+                 -[3,2,1]
+
+                E.g. if you toss a coin, you may get H or T. so proability is of getting H or T, if you do infinite
+                repeatition is 50%.
+
+
+
+                How many permutations of array of N? it is N! what is the propability of getting 1/N!.
+
+                Brute force:
+
+
+
+- Binary Search (in sorted array with duplicate element) in log(N).
+
+    Find the first occurance of a number.
+        - midddle element or go left or right.
+
+    Find the last occurance of a number.
+        - Middle element or go to left or right.
+
+    Find the smallest number greater than given number.
+
+    Find the largest number given than given number.
+

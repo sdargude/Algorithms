@@ -1,0 +1,40 @@
+Sorting algorithm
+
+1. Stability : Order of sorted element is same after sort. Mostly, Whenever we do a swap the stability of sorting algorithm is lost.
+               Quick Sort is intrensicly not statble. If we take a consistent pivot , it may be made statble.
+
+2. Complexity : It can reach from n logn to n X n.
+
+3. Space complexity:
+
+Stable Sorting Algorithms:
+1.Insertion Sort
+2.Merge Sort nlogn.
+3.Bubble Sort
+4.Tim Sort
+5.Counting Sort
+
+Unstable Sorting Algorithms:
+1.Heap Sort (n + nlogn)
+2.Selection sort
+3.Shell sort
+4.Quick  (nlogn - n*n)
+
+
+
+Conversion from 2 power to 10 power number
+                2 ^ 10  ~= 10 ^ 3  (1 Kilo).
+                2 ^ 20  ~= 10 ^ 6  (1 Mega).
+                2 ^ 30  ~= 10 ^ 9 (1 Giga).
+
+
+
+Time complexity of algorithms:
+
+O(1)        - Time will always remain same.
+O(log n)    - Time grows very slowly despite new data been added.
+O(n)        - Time increases linearly based on size of dataset.
+O(n log n)  -
+O(n ^ 2)    - Time increases in polynomial time.
+O (2 ^ n)   - Time doubles with each data item.
+O(n!)       - Time grows exponentially due to number of permuttation.
