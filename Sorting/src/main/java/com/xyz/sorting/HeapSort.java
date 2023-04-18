@@ -2,6 +2,13 @@ package com.xyz.sorting;
 
 public class HeapSort {
 
+    /*
+        presenting a Binary tree as Array.
+        If a Node is at index - i
+        it's left child is at - 2 * i
+        its right child is at - 2 * i + 1
+        it's parernt is at - i/2
+    */
 
     public static void swap (int a[], int s, int d) {
         int temp = a[s];
